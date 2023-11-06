@@ -58,7 +58,9 @@
 
             Console.WriteLine( );
             string[,,] parkingu = new string[3, 3, 2];
+            // qasemi me 3 indekse
 
+            
             for(int i = parkingu.GetLength(0) - 1; i >=0; i--)
             {
                 for(int j = parkingu.GetLength(1) - 1 ; j >=0; j--)
