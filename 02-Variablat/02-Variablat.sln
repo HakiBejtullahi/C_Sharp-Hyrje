@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Variablat", "02-Variablat\02-Variablat.csproj", "{CD72FBDF-0959-419D-9F6D-F751EC4C74BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD72FBDF-0959-419D-9F6D-F751EC4C74BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD72FBDF-0959-419D-9F6D-F751EC4C74BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD72FBDF-0959-419D-9F6D-F751EC4C74BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD72FBDF-0959-419D-9F6D-F751EC4C74BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2F5B734-6ECD-42D8-B562-067557F7DC1A}
+	EndGlobalSection
+EndGlobal
