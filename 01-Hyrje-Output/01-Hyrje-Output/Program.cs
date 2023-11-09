@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
+
+            //Ndro ngjyrat e Consoles
+            // Ndrro ngjyren e shkronjave ne Console
+            Console.ForegroundColor = ConsoleColor.Red;
+            // Ndrro ngjyren e background te tekstit ne Console
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            // Ndrro ngjyren e background ne Console
+            // kujdes fshine gjitha tekstet
+            Console.Clear();
+
+
             //Per te shfaqur nje mesazh ne Console perdorim keto dy metoda
+
 
             // Console.Write()  => per te shenuar tekst ne console pa e zene gjithe rreshtin
             Console.Write("Fjala 1");
@@ -14,9 +26,6 @@
             Console.WriteLine( );
             Console.WriteLine(" Fjala 3");
             Console.WriteLine(" Fjala 4");
-
-
-
 
 
 

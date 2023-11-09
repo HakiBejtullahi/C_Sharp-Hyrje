@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-Stringjet_E_Gjata", "25-Stringjet_E_Gjata\25-Stringjet_E_Gjata.csproj", "{BCBB073B-75C2-4B69-AD38-F6B204E81571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCBB073B-75C2-4B69-AD38-F6B204E81571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBB073B-75C2-4B69-AD38-F6B204E81571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBB073B-75C2-4B69-AD38-F6B204E81571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBB073B-75C2-4B69-AD38-F6B204E81571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA797794-C4CB-47A1-B7E9-B50B409C50C0}
+	EndGlobalSection
+EndGlobal

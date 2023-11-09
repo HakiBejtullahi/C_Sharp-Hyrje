@@ -43,11 +43,28 @@
 
             for (int i = 0; i < ListaKerreve.Length; i++)
             {
-                Console.Write("sheno nje brand te kerreve: ");
-                ListaKerreve[i] = Console.ReadLine();
+                //
+                //Console.Write("sheno nje brand te kerreve: ");
+                //ListaKerreve[i] = Console.ReadLine();
             }
 
-            Console.WriteLine(ListaKerreve[0]);
+
+            // ALT  Deklarim Array
+            // Smund te aksesohet me [index]
+            // aksses vetem me for loops
+
+            Array emrat = Array.CreateInstance(typeof(string), 3);
+            for(int i = 0; i < emrat.Length;i++)
+            {
+                emrat.SetValue(Console.ReadLine().Trim(), i);
+
+                Console.WriteLine(emrat.GetValue(i)); ;
+            }
+
+                Console.WriteLine(ListaKerreve[0]);
+
+
+
         }
     }
 }

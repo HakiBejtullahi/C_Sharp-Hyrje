@@ -104,14 +104,35 @@
 
 
             //Compare() =>  Krahason dy stringje sipas renditjes alfabetore te utf8
+            //               -1 nese indeksi me i vogel {"abc" para "acc"}
+            //               1 nese indeksi me i madh   {"abc" pas "aac"}
+            //               0 nese te  barabart {"abc" = "abc"}
 
             Console.WriteLine("abc".CompareTo("acc"));
-            
 
 
-            //fullName.
+
+            //Contains() => metode qe perdoret per te kontrollouar nese 
+            //              nje string permban nje string/char te caktuar.
+            //              kthen Bool {True/False}
+
+            string username = "Mr. John Smith";
+            Console.WriteLine("UserName Contains 'Mr.': {0}", username.Contains("Mr."));
 
 
+            //Pad() =>    padding per tekstin; 
+            //            PadRight(numriSpace, "symboli")
+            //            PadLeft(numriSpace, "symboli")\
+            string randomString = "Random String";
+            Console.WriteLine("Pad Left: {0}", randomString.PadLeft(30,'.') );
+            Console.WriteLine("Pad Right: {0}", randomString.PadRight(30,'.') );
+
+
+            // Trim()    remove white space
+            Console.WriteLine("            Helo world           ");
+            Console.Write(">>");
+            Console.Write("            Helo world              ".Trim());
+            Console.Write("<<");
             Console.ReadKey();
         }
     }
