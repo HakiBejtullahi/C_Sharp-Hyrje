@@ -6,7 +6,7 @@
         {
             //Method Overriding
             // provides a new version of a method inherited from a parent
-            // class. The inherited method must be :
+            // class. The parent method must be :
             // abstract, virtual or already overriden
             // used with ToString(), polymorphism
 
